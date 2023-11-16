@@ -45,6 +45,11 @@
     <main>
         <div class="container text-center">
             <h1>Prodotti</h1>
+            <ul>
+                @foreach ($products as $product)
+                    <li> {{ $product }}</li>
+                @endforeach
+            </ul>
         </div>
     </main>
 </body>

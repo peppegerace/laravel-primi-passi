@@ -19,13 +19,16 @@ Route::get('/', function () {
 });
 
 Route::get('/prodotti', function() {
-    return view('prodotti');
+    $products = ['Manga', 'Action Figure', 'Funko Pop', 'Carte Collezionabili'];
+    return view('prodotti', compact('products'));
 });
 
 Route::get('/servizi', function() {
-    return view('servizi');
+    $services = ['Poster Personalizzabili', 'Action Figure personalizzabili'];
+    return view('servizi', compact('services'));
 });
 
 Route::get('/contatti', function() {
-    return view('contatti');
+    $contacts = ['Tel: 0964 334455', 'e-mail: fumettiefumetti@gmail.com'];
+    return view('contatti', compact('contacts'));
 });

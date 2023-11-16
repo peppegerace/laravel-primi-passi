@@ -44,6 +44,11 @@
     <main>
         <div class="container text-center">
             <h1>Servizi</h1>
+            <ul>
+                @foreach ($services as $service)
+                    <li> {{ $service }}</li>
+                @endforeach
+            </ul>
         </div>
     </main>
 </body>

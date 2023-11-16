@@ -44,6 +44,12 @@
     <main>
         <div class="container text-center">
             <h1>Contatti</h1>
+            <ul>
+                @foreach ($contacts as $contact)
+                    <li> {{ $contact }}</li>
+                @endforeach
+            </ul>
+        </div>
         </div>
     </main>
 </body>

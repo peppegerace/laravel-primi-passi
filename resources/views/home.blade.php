@@ -33,10 +33,10 @@
                         <a href="/prodotti">Prodotti</a>
                     </li>
                     <li>
-                        <a href="">Servizi</a>
+                        <a href="/servizi">Servizi</a>
                     </li>
                     <li>
-                        <a href="">Contatti</a>
+                        <a href="/contatti">Contatti</a>
                     </li>
                 </ul>
             </nav>

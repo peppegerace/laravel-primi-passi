@@ -21,7 +21,7 @@
         }
     </style>
 
-    {{-- <h1>Hello {{ $var }}</h1> --}}
+
     <header>
         <div class="container my-5">
             <nav>
@@ -33,10 +33,10 @@
                         <a href="/prodotti">Prodotti</a>
                     </li>
                     <li>
-                        <a href="">Servizi</a>
+                        <a href="/servizi">Servizi</a>
                     </li>
                     <li>
-                        <a href="">Contatti</a>
+                        <a href="/contatti">Contatti</a>
                     </li>
                 </ul>
             </nav>
@@ -44,7 +44,7 @@
     </header>
     <main>
         <div class="container text-center">
-            <h1>Home</h1>
+            <h1>Prodotti</h1>
         </div>
     </main>
 </body>

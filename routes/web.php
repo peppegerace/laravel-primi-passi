@@ -17,3 +17,15 @@ Route::get('/', function () {
     $var = 'World';
     return view('home', compact('var'));
 });
+
+Route::get('/prodotti', function() {
+    return view('prodotti');
+});
+
+Route::get('/servizi', function() {
+    return view('servizi');
+});
+
+Route::get('/contatti', function() {
+    return view('contatti');
+});
